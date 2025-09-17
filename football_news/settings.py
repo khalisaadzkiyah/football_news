@@ -33,7 +33,7 @@ PRODUCTION = os.getenv('PRODUCTION', 'False').lower() == 'true'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "152.118.29.139", "khalisa-adzkiyah-footballnews.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "khalisa-adzkiyah-footballnews.pbp.cs.ui.ac.id"]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://khalisa-adzkiyah-footballnews.pbp.cs.ui.ac.id"
